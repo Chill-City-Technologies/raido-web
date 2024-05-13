@@ -3,6 +3,12 @@
   padding-bottom: 100px;
 }
 
+@include respond-below(md) {
+  .c {
+    margin-bottom: 30px;
+  }
+}
+
 .card {
   background-color: white;
   @include flexCenter;

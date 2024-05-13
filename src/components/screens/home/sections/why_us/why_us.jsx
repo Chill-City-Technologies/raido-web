@@ -8,9 +8,9 @@ const Card = ({ data }) => {
   const { head, text, id } = data;
 
   return (
-    <Col xs={12} md={6} lg={3}>
+    <Col xs={12} md={6} lg={3} className={styles.c}>
       <div className={styles.card}>
-        <Image src={`/assets/svg/${id}.svg`} alt={id} width={200} />
+        <Image src={`/assets/svg/${id}.svg`} alt={id} height={200} />
         <h4>{head}</h4>
         <p>{text}</p>
       </div>
