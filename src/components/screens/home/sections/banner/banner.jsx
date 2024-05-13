@@ -17,10 +17,10 @@ const BannerSection = () => {
             <div>
               <h1>
                 Book Your <span className={styles.sp1}>Eco</span> {' '}
-                <span className={styles.sp2}>Friendly</span> Electric Bike Taxi
+                <span className={styles.sp2}>Friendly</span> Bike Taxi
                 Today
               </h1>
-              <p>Booking an Eco-Friendly ride with Raido is as easy as 1-2-3. Simply download our app.</p>
+              <p>Booking an ride with Raido is as easy as 1-2-3. <br/>Simply download our app.</p>
 
               <Link href="/">
                 <Image src="/assets/playbtn.png" alt="logo" fluid width={200} />
@@ -28,7 +28,7 @@ const BannerSection = () => {
             </div>
           </div>
           <div className={styles.hero}>
-            <Image src="/assets/svg/hero.svg" alt="hero" fluid />
+            <Image src="/assets/svg/hero2.svg" alt="hero" fluid />
           </div>
         </div>
       </CustomContainer>

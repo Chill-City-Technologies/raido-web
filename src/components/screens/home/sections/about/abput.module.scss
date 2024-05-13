@@ -1,0 +1,19 @@
+.aboutSection {
+  padding-bottom: 100px;
+
+  .left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+
+  .img {
+    padding: 0 50px;
+    img {
+      border-radius: 20px !important;
+      background-color: red;
+    }
+  }
+
+}
