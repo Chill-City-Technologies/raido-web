@@ -1,0 +1,18 @@
+.sectionHead {
+  padding: 70px 0;
+  text-align: center;
+  position: relative;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  &.v1 {
+    color: $color_j3;
+    img {
+      filter: invert(99%) sepia(4%) saturate(4981%) hue-rotate(3deg)
+        brightness(94%) contrast(100%);
+    }
+  }
+}
