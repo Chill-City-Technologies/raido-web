@@ -1,11 +1,11 @@
 .aboutSection {
   padding-bottom: 100px;
 
-  .left{
+  .left {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+    padding-bottom: 30px;
   }
 
   .img {
@@ -16,4 +16,9 @@
     }
   }
 
+  @include respond-below(md) {
+    .img {
+      padding: 0;
+    }
+  }
 }
