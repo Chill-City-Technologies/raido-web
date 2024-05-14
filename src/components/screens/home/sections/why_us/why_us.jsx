@@ -5,7 +5,7 @@ import { Col, Image, Row } from "react-bootstrap";
 import styles from "./why_us.module.scss";
 
 const Card = ({ data }) => {
-  const { head, text, id ,img} = data;
+  const { head, text, id, img } = data;
 
   return (
     <Col xs={12} md={6} lg={3} className={styles.c}>

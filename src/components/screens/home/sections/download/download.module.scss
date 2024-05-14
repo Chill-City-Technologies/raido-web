@@ -1,0 +1,63 @@
+.downloadSection {
+  background-color: $color_2;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  overflow: hidden;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+
+    h3 {
+      font-size: 40px;
+
+      span {
+        color: $color_1;
+        font-weight: 800;
+      }
+    }
+
+    @include respond-below(md) {
+      text-align: center;
+    }
+  }
+
+  @include respond-above(md) {
+    padding-bottom: 0px;
+    .imgs {
+      img {
+        margin-top: -70px;
+      }
+    }
+  }
+
+  .imgs {
+    position: relative;
+    height: 550px;
+    img {
+      position: absolute;
+      height: 550px;
+
+      &.img {
+        // @include respond-above(md) {
+        left: 100px;
+        // }
+
+        @include respond-below(md) {
+          left: 50%;
+          transform: translate(-50%, 0);
+        }
+      }
+
+      &.blob {
+        left: -20px;
+
+        @include respond-below(md) {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}

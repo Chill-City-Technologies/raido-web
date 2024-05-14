@@ -1,0 +1,55 @@
+.howItWorksSection {
+  padding-bottom: 80px;
+
+  .left {
+    padding-bottom: 50px;
+
+    h3 {
+      font-size: 30px;
+    }
+
+    hr {
+      width: 150px;
+      height: 5px;
+      border: none;
+      background-color: $color_1;
+      opacity: 1;
+    }
+  }
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  position: relative;
+
+  .strip {
+    position: absolute;
+    background-color: $color_1;
+    height: 90%;
+    width: 5px;
+    top: 25px;
+    left: 42px;
+    z-index: -1;
+  }
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  .text {
+    width: 75%;
+  }
+
+  .img {
+    background-color: $color_2;
+    border-radius: 50%;
+    padding: 20px;
+    @include flexCenter;
+    height: 90px;
+    width: 90px;
+  }
+}
