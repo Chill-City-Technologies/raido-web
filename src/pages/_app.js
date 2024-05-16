@@ -65,7 +65,7 @@ export default function App({ Component, pageProps }) {
           <Image src="/splash.gif" alt="splash" width={200} />
         </div>
       ) : (
-        <div className={`${fonts.mainFont} ${isLoading ? styles.loading : ""}`}>
+        <div className={`${fonts.mainFont} ${styles.app} ${isLoading ? styles.loading : ""}`}>
           <Layout>
             <Component {...pageProps} admin={admin} />
           </Layout>
