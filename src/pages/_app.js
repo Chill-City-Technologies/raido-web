@@ -7,6 +7,8 @@ import "nprogress/nprogress.css";
 import Router from "next/router";
 import Layout from "@/components/layout/layout";
 import fonts from "@/styles/fonts";
+import { Image } from "react-bootstrap";
+import styles from "@/styles/Home.module.scss";
 
 // Import the functions you need from the SDKs you need
 
@@ -31,12 +33,13 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     Aos.init({
       // easing: "ease-out-cubic",
-      duration: 1500,
+      duration: 1000,
       once: false,
     });
 
     // const analytics = getAnalytics(firebaseApp);
   }, []);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     Router.events.on("routeChangeStart", (...params) => {
@@ -44,6 +47,9 @@ export default function App({ Component, pageProps }) {
     });
     Router.events.on("routeChangeComplete", NProgress.done);
     Router.events.on("routeChangeError", NProgress.done);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2500);
     return () => {
       Router.events.off("routeChangeStart", NProgress.start);
       Router.events.off("routeChangeComplete", NProgress.done);
@@ -51,15 +57,21 @@ export default function App({ Component, pageProps }) {
     };
   }, []);
 
-  const isConstruction = false;
-
   return (
     // <SessionProvider session={pageProps.session}>
-    <div className={fonts.mainFont}>
-      <Layout>
-        <Component {...pageProps} admin={admin} />
-      </Layout>
-    </div>
+    <>
+      {isLoading ? (
+        <div className={styles.splash}>
+          <Image src="/splash.gif" alt="splash" width={200} />
+        </div>
+      ) : (
+        <div className={`${fonts.mainFont} ${isLoading ? styles.loading : ""}`}>
+          <Layout>
+            <Component {...pageProps} admin={admin} />
+          </Layout>
+        </div>
+      )}
+    </>
     // </SessionProvider>
   );
 }

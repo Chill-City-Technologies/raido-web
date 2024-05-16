@@ -9,10 +9,10 @@ const AboutSection = () => {
   return (
     <section className={styles.aboutSection}>
       <SectionHeading head="Know Us Better" />
-      <CustomContainer>
+      <CustomContainer >
         <Row>
           <Col xs={12} md={8}>
-            <div className={styles.left}>
+            <div className={styles.left} data-aos='fade-right'>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quisquam aliquam eos perferendis, iusto esse corporis voluptates
@@ -43,7 +43,7 @@ const AboutSection = () => {
             </div>
           </Col>
           <Col xs={12} md={4}>
-            <div className={styles.img}>
+            <div className={styles.img} data-aos='fade-left'>
               <Image src="/assets/auto.jpg" alt="auto" fluid />
             </div>
           </Col>

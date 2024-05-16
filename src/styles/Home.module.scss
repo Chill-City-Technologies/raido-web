@@ -1,0 +1,33 @@
+.loading{
+    overflow: hidden;
+    height: 100dvh;
+  width: 100vw;
+}
+
+.splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  height: 100dvh;
+  width: 100vw;
+  background-color: white;
+  animation: fade 2.7s forwards linear;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.01;
+  }
+}

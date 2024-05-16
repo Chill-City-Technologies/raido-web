@@ -14,7 +14,7 @@ const DownloadSection = () => {
       <CustomContainer>
         <Row>
           <Col xs={12} md={7}>
-            <div className={styles.left}>
+            <div className={styles.left} data-aos='fade-left'>
               <h3>Download the <span>Raido</span> mobile application</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -31,7 +31,7 @@ const DownloadSection = () => {
             </div>
           </Col>
           <Col xs={12} md={5}>
-            <div className={styles.imgs}>
+            <div className={styles.imgs} data-aos='fade-right'>
               <Image
                 src="/assets/svg/blob1.svg"
                 className={styles.blob}

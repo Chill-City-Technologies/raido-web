@@ -10,6 +10,7 @@ const Blob1 = () => {
       style={{
         filter: cssToHex.hexToFilter(COLORS.color_grey_1).color,
       }}
+
     >
       <defs>
         <clipPath id="a">

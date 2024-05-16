@@ -4,12 +4,15 @@ import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import styles from "./why_us.module.scss";
 
-const Card = ({ data }) => {
+const Card = ({ data, isEven }) => {
   const { head, text, id, img } = data;
 
   return (
     <Col xs={12} md={6} lg={3} className={styles.c}>
-      <div className={styles.card}>
+      <div
+        className={styles.card}
+        data-aos={`flip-${isEven ? "right" : "left"}`}
+      >
         <Image src={`/assets/svg/${img}`} alt={id} height={200} />
         <h4>{head}</h4>
         <p>{text}</p>
@@ -52,8 +55,8 @@ const WhyUs = () => {
       <SectionHeading head="Why Choose Us?" variant={2} />
       <CustomContainer>
         <Row>
-          {cards.map((c) => (
-            <Card key={c.id} data={c} />
+          {cards.map((c, i) => (
+            <Card key={c.id} data={c} isEven={i % 2} />
           ))}
         </Row>
       </CustomContainer>

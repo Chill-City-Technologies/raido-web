@@ -50,7 +50,7 @@ const HowItWorksSection = () => {
       <CustomContainer>
         <Row>
           <Col xs={12} md={6}>
-            <div className={styles.left}>
+            <div className={styles.left} data-aos='fade-right'>
               <h3>Lorem ipsum dolor sit.</h3>
               <hr />
               <p>
@@ -70,7 +70,7 @@ const HowItWorksSection = () => {
             </div>
           </Col>
           <Col xs={12} md={6}>
-            <div className={styles.right}>
+            <div className={styles.right} data-aos='fade-left'>
               <div className={styles.strip} />
               {steps.map((s) => (
                 <Step key={s.id} data={s} />
