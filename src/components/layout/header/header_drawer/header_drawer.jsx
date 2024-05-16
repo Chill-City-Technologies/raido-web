@@ -24,13 +24,21 @@ const HeaderDrawer = ({ show, setShow, router }) => {
                 href={page.href}
                 key={page.name}
                 className={router.pathname === page.href ? styles.active : ""}
+                onClick={() => {
+                  setShow(false);
+                }}
               >
                 {page.name}
               </Link>
             );
           })}
 
-          <Link href="/">
+          <Link
+            href="/"
+            onClick={() => {
+              setShow(false);
+            }}
+          >
             <Image src="/assets/playbtn.png" alt="logo" fluid width={200} />
           </Link>
         </div>

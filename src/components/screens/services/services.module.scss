@@ -1,0 +1,68 @@
+.servicesScreen {
+  padding: 50px 0;
+
+  .cap {
+    margin-bottom: 150px;
+    font-size: 18px;
+    color: rgb(72, 72, 72);
+    text-align: center;
+  }
+
+  .service {
+    display: flex;
+    gap: 0px;
+    margin-bottom: 70px;
+
+    .text {
+      margin-bottom: 30px;
+      width: 60%;
+      h2 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 17px;
+      }
+
+      hr {
+        width: 150px;
+        height: 5px;
+        border: none;
+        background-color: $color_1;
+        opacity: 1;
+      }
+    }
+
+    &.right {
+      flex-direction: row-reverse;
+    }
+    .img {
+      width: 40%;
+      margin-top: -100px;
+
+      &.noMargin {
+        margin-top: 0;
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  @include respond-below(lg) {
+    .cap {
+      margin-bottom: 50px;
+      font-size: 17px;
+    }
+    .service {
+      flex-direction: column !important;
+      align-items: center;
+      .text {
+        width: 100%;
+      }
+
+      .img {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

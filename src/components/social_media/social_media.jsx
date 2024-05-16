@@ -5,9 +5,9 @@ import Link from "next/link";
 import cssToHex from "css-filter-converter";
 import { COLORS } from "@/constants/styles";
 
-const SocialMedia = () => {
+const SocialMedia = ({variant=1}) => {
   return (
-    <div className={styles.social}>
+    <div className={`${styles.social} ${styles[`v${variant}`]}`}>
       {SOCIAL_MEDIA_LINKS.map((link) => {
         return (
           <div key={link.name} className={styles[link.name]}>
@@ -17,7 +17,7 @@ const SocialMedia = () => {
                 alt={link.name}
                 fluid
                 style={{
-                  filter: cssToHex.hexToFilter('#ffffff').color,
+                  filter: cssToHex.hexToFilter(variant === 1 ? '#ffffff' : '#000000').color,
                 }}
               />
             </Link>

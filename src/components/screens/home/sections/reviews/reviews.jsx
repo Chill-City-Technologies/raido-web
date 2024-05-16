@@ -58,6 +58,8 @@ const ReviewsSection = ({ isAbout }) => {
   return (
     <section className={styles.reviewsSection}>
       <div className={styles.overlay} />
+      <div className={styles.fader} />
+
       {/* <CustomContainer> */}
         <div className={styles.scroller}>
           <div className={styles.scrollHolder}>
