@@ -21,7 +21,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`} data-aos="fade-down">
+    <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`} >
       <HeaderDrawer setShow={setShow} show={show} router={router} />
       <CustomContainer>
         <div className={styles.wrap}>

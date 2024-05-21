@@ -5,6 +5,7 @@ import { Col, Image, Row } from "react-bootstrap";
 import Link from "next/link";
 import PAGES from "@/constants/pages";
 import SocialMedia from "@/components/social_media/social_media";
+import TABS from "@/constants/services";
 
 const Footer = () => {
   return (
@@ -36,9 +37,9 @@ const Footer = () => {
           <Col xs={6} md={6} lg={2}>
             <div className={`${styles.sec} ${styles.sec2}`}>
               <h4>Services</h4>
-              {PAGES.map((p) => (
+              {TABS.map((p,i) => (
                 <p key={p.name} className={styles.links}>
-                  <Link href={p.href}>{p.name}</Link>
+                  <Link href={`/services?t=${i}`}>{p.name}</Link>
                 </p>
               ))}
             </div>

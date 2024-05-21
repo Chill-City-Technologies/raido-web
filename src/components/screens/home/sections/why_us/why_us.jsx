@@ -1,8 +1,9 @@
 import CustomContainer from "@/components/ui/custom_container/custom_container";
 import SectionHeading from "@/components/ui/section_heading/section_heading";
-import React from "react";
+import React, { useState } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import styles from "./why_us.module.scss";
+import RaidoTabs from "@/components/ui/tabs/tabs";
 
 const Card = ({ data, isEven }) => {
   const { head, text, id, img } = data;
@@ -22,13 +23,7 @@ const Card = ({ data, isEven }) => {
 };
 
 const WhyUs = () => {
-  const cards = [
-    {
-      id: "comm",
-      img: "comm.svg",
-      head: "0% Commission",
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit provident error?",
-    },
+  const customerCards = [
     {
       id: "pickup",
       img: "pickup.svg",
@@ -50,12 +45,45 @@ const WhyUs = () => {
     },
   ];
 
+  const riderCards = [
+    {
+      id: "comm",
+      img: "comm.svg",
+      head: "0% Commission",
+      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit provident error?",
+    },
+  ];
+
+  const tabs = [
+    {
+      id: "customer",
+      name: "As a Customer",
+      content: customerCards,
+    },
+    {
+      id: "rider",
+      name: "As a Rider Star",
+      content: riderCards,
+    },
+  ];
+
+  const [currentTab, setCurrentTab] = useState(tabs[0]);
+
   return (
     <section className={styles.whyUs}>
       <SectionHeading head="Why Choose Us?" variant={2} />
       <CustomContainer>
+       <div data-aos='fade-up'>
+       <RaidoTabs
+          tabs={tabs}
+          setCurrentTab={setCurrentTab}
+          currentTab={currentTab}
+        />
+       </div>
+        <br/>
+        <br/>
         <Row>
-          {cards.map((c, i) => (
+          {currentTab.content.map((c, i) => (
             <Card key={c.id} data={c} isEven={i % 2} />
           ))}
         </Row>
