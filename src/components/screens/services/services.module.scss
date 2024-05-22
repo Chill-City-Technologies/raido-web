@@ -21,8 +21,6 @@
     display: flex;
     gap: 0px;
     margin-bottom: 100px;
-    
-
     .text {
       margin-bottom: 30px;
       width: 60%;
@@ -48,6 +46,9 @@
     .img {
       width: 40%;
       margin-top: -100px;
+      margin-left: auto;
+      margin-right: auto;
+      @include flexCenter;
 
       &.noMargin {
         margin-top: -35px;
