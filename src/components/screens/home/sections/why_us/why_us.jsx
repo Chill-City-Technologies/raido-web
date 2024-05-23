@@ -34,23 +34,54 @@ const WhyUs = () => {
       id: "drop",
       img: "drop.jpg",
       head: "Quick Drop",
-      text: "Trend setters of smart commute be it traffic or rush hours.",
+      text: "With Raido's experienced and well trained Drivers, We are the Trend setters of smart commute be it traffic or rush hours.",
     },
 
     {
       id: "price2",
       img: "price2.svg",
       head: "Affordable Price",
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit provident error?",
+      text: "Raido provides the most affordable cab service in the town. NO HIDDEN CHARGES!. NO COMMISSION!",
+    },
+    {
+      id: "insurance",
+      img: "insurance.svg",
+      head: "Insured Rides",
+      text: "With Raido, You are in safe hands. Your Safety is out top-most Priority. Your Each and every ride is insured",
     },
   ];
 
   const riderCards = [
     {
+      id: "earn",
+      img: "earn.svg",
+      head: "Earn What You Drive",
+      text: "No Commission! No Hidden Charges!. Raido provides comparatively the highest earning opportunity for drivers.",
+    },
+    {
       id: "comm",
       img: "comm.svg",
       head: "0% Commission",
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit provident error?",
+      text: "Not a single penny from your hard work would reach our pocket. Start the day by paying a fixed amount. That's All!",
+    },
+    {
+      id: "transparent",
+      img: "transparent.svg",
+      head: "Transparency",
+      text: "Transparency is the key. That's how Raido roll. Track your each and every step with our simple user-friendly interface.",
+    },
+    // {
+    //   id: "finance",
+    //   img: "finance.svg",
+    //   head: "Flexible Subscription",
+    //   // text: "With our latest payment integration technology, Payments are flawless and spontaneous. ",
+    //   text: "With our new flexible subscription, Payments made easy",
+    // },
+    {
+      id: "finance",
+      img: "finance.svg",
+      head: "Flawless Payments",
+      text: "With our latest payment integration technology, Payments are flawless and spontaneous any time.",
     },
   ];
 
@@ -62,7 +93,7 @@ const WhyUs = () => {
     },
     {
       id: "rider",
-      name: "As a Rider Star",
+      name: "As a Rideo Star",
       content: riderCards,
     },
   ];
@@ -72,16 +103,17 @@ const WhyUs = () => {
   return (
     <section className={styles.whyUs}>
       <SectionHeading head="Why Choose Us?" variant={2} />
+      
       <CustomContainer>
-       <div data-aos='fade-up'>
-       <RaidoTabs
-          tabs={tabs}
-          setCurrentTab={setCurrentTab}
-          currentTab={currentTab}
-        />
-       </div>
-        <br/>
-        <br/>
+        <div data-aos="fade-up">
+          <RaidoTabs
+            tabs={tabs}
+            setCurrentTab={setCurrentTab}
+            currentTab={currentTab}
+          />
+        </div>
+        <br />
+        <br />
         <Row>
           {currentTab.content.map((c, i) => (
             <Card key={c.id} data={c} isEven={i % 2} />

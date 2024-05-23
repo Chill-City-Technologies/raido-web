@@ -16,12 +16,15 @@ const BannerSection = () => {
           <div className={styles.cont}>
             <div>
               <h1 data-aos="fade-down">
-                Book Your <span className={styles.sp1}>Eco</span>{" "}
-                <span className={styles.sp2}>Friendly</span> Bike Taxi Today
+                Book Your <span className={styles.sp2}>Safest</span> &{" "}
+                <span className={styles.sp1}>Affordable</span> Bike, Auto &
+                School Rides Today
               </h1>
               <p data-aos="fade-up">
-                Booking an ride with Raido is as easy as 1-2-3. <br />
-                Simply download our app.
+                Introducing Raido&apos;s New &quot;Raido School&quot; for your
+                children&apos;s safest daily school rides. Download Raido Now.
+                <br />
+                {/* Simply download our app. */}
               </p>
 
               <Link href="/" data-aos="flip-up">

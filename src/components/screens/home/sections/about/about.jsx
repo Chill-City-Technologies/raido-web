@@ -9,41 +9,34 @@ const AboutSection = () => {
   return (
     <section className={styles.aboutSection}>
       <SectionHeading head="Know Us Better" />
-      <CustomContainer >
+      <CustomContainer>
         <Row>
           <Col xs={12} md={8}>
-            <div className={styles.left} data-aos='fade-right'>
+            <div className={styles.left} data-aos="fade-right">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam aliquam eos perferendis, iusto esse corporis voluptates
-                obcaecati maxime atque tempore architecto fugiat alias ratione
-                nisi a impedit corrupti voluptatem. Assumenda vitae, illum
-                tenetur unde aut nemo corrupti neque iure harum similique
-                nesciunt illo hic, et dolor fuga, expedita ab. Deserunt, ut
-                alias ipsum est nobis dicta, repudiandae veritatis similique,
-                corporis nemo nihil qui? Minima magnam dolorem aliquid repellat
-                cum earum. Atque aliquam minima quidem nemo? Sequi, molestiae
-                sint provident temporibus dicta alias, ducimus ex non veritatis,
-                autem fugit explicabo a. Quaerat quo quibusdam maxime vero,
-                pariatur unde odit animi, similique incidunt eius officia
-                adipisci voluptatibus commodi aliquid saepe impedit provident ab
-                dolor, obcaecati doloremque sunt ex ullam. In ratione, dicta
-                nostrum nisi optio nihil, impedit nulla, saepe molestiae culpa
-                corrupti! Velit nisi optio, inventore sint ullam, ratione beatae
-                est eius non tempore voluptate ad dolores, facere facilis qui.
-                Vel tempora eligendi dignissimos at sunt. Velit rem, veritatis
-                nostrum debitis officiis ratione repudiandae aspernatur soluta
-                ad facilis sed dicta voluptatibus porro necessitatibus
-                laboriosam illum voluptates quaerat excepturi quidem quae animi
-                qui! Deleniti error delectus necessitatibus nulla rerum
-                asperiores doloribus dolorem dolore molestiae. Suscipit minus
-                asperiores consectetur ad saepe vel, molestiae voluptatibus.
+                Welcome to Raido, Chennai&apos;s budding bike taxi and auto
+                booking app. We offer the most affordable cab service in town
+                with no hidden charges for drivers or customers. Unlike others,
+                we charge zero commission to our drivers, ensuring fair earnings
+                and exceptional service. Providing daily school rides, parents
+                can track their children&apos;s journey in real-time. Safety is
+                our priority, with every ride insured and our experienced,
+                well-trained drivers. Our user-friendly app makes booking
+                effortless with GPS tracking and instant notifications. Join
+                Raido for reliable, transparent, and safe travel solutions in
+                Chennai. Ride with us and experience the difference today!
+              </p>
+              <p>
+                Join the Raido community today and experience the difference.
+                With our commitment to affordability, transparency, and safety,
+                we are dedicated to transforming the way Chennai travels. Choose
+                Raido for a ride you can trust, every time.
               </p>
               <CustomButton>Know More</CustomButton>
             </div>
           </Col>
           <Col xs={12} md={4}>
-            <div className={styles.img} data-aos='fade-left'>
+            <div className={styles.img} data-aos="fade-left">
               <Image src="/assets/auto.jpg" alt="auto" fluid />
             </div>
           </Col>

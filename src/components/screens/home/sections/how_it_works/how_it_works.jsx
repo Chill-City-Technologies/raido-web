@@ -50,27 +50,27 @@ const HowItWorksSection = () => {
       <CustomContainer>
         <Row>
           <Col xs={12} md={6}>
-            <div className={styles.left} data-aos='fade-right'>
+            <div className={styles.left} data-aos="fade-right">
               <h3>Lorem ipsum dolor sit.</h3>
               <hr />
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia,
-                in, molestiae mollitia ipsam delectus est provident quaerat ex
-                quidem beatae repudiandae iste et eaque commodi, aperiam
-                sapiente vel! Consectetur enim eaque reprehenderit, fugiat
-                minima debitis aperiam veritatis sed commodi facilis dolores
-                molestias reiciendis harum earum eveniet quibusdam voluptate
-                dicta esse iure excepturi, adipisci at. Hic exercitationem
-                doloremque corrupti velit repellendus dolores dolorum fuga
-                adipisci quae quo, enim nisi libero vero aperiam inventore
-                deleniti odit laboriosam harum qui labore? Sit, repellat amet.
-                Corporis eum iusto illo eligendi sapiente impedit illum sit id
-                ipsa, soluta doloribus sed cumque debitis repellat, nisi quas.
+                Using Raido is simple and efficient. First, download our
+                user-friendly app from the App Store or Google Play Store. Sign
+                up and enter your details to create an account. To book a ride,
+                simply open the app, set your pickup and drop-off locations, and
+                choose your preferred vehicle type. You can track your ride in
+                real-time and receive notifications about your driver&apos;s arrival
+                and trip status. Once your ride is complete, payment is
+                automatically processed through the app, eliminating the need
+                for cash transactions. With our transparent pricing and no
+                hidden charges, you&apos;ll know exactly what to expect before
+                confirming your booking. Experience hassle-free travel with
+                Raido – Chennai&apos;s premier bike taxi and auto booking app.
               </p>
             </div>
           </Col>
           <Col xs={12} md={6}>
-            <div className={styles.right} data-aos='fade-left'>
+            <div className={styles.right} data-aos="fade-left">
               <div className={styles.strip} />
               {steps.map((s) => (
                 <Step key={s.id} data={s} />

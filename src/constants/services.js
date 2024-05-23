@@ -64,6 +64,7 @@ const riderServices = [
     text: "We believe in fair earnings for all our Raido Stars. That’s why Raido charges absolutely zero commission on rides. Every penny you earn from your rides is yours to keep. By eliminating commission fees, we ensure that your hard work pays off directly.",
     cta: <CustomButton>Contact Us Now</CustomButton>,
   },
+
   {
     id: "rs3",
     head: "Earn What You Drive",
@@ -97,7 +98,7 @@ const cabServices = [
     img: "hero2",
     text: "At Raido, we understand the importance of affordability and convenience in your daily commute. Our bike taxi and auto booking services are designed to provide you with the cheapest transportation options in Chennai. Whether you’re heading to work, running errands, or exploring the city, Raido ensures you get to your destination without breaking the bank. Our competitive pricing is tailored to fit every budget, making us the go-to choice for cost-effective travel. With Raido, you can expect transparent fare structures, no hidden charges, and a commitment to delivering value with every ride. Choose Raido for an economical and efficient travel experience.",
     cta: <SocialMedia variant={2} />,
-    noMargin:true
+    noMargin: true,
   },
   {
     id: "cs2",
@@ -113,7 +114,7 @@ const cabServices = [
     img: "insurance",
     text: "Travel with confidence knowing that every ride you take with Raido is fully insured. We prioritize your security by providing comprehensive insurance coverage for all our rides. This means that in the unlikely event of an accident or mishap, you are protected. Our commitment to your safety extends beyond just providing a secure ride; it includes ensuring financial protection and peace of mind. With Raido, you can relax and enjoy your journey, knowing that you are safeguarded at all times. Choose Raido for a worry-free travel experience where your safety and well-being are our utmost priority.",
     cta: <SocialMedia variant={2} />,
-    noMargin:true
+    noMargin: true,
   },
   {
     id: "cs4",
@@ -121,7 +122,7 @@ const cabServices = [
     img: "navigation",
     text: "Stay connected and informed with Raido’s advanced GPS tracking and real-time notifications. Our app offers precise GPS tracking, allowing you to monitor your ride’s progress and location from start to finish. You’ll receive instant notifications about your driver’s arrival, trip status, and estimated time of arrival. This feature not only enhances your safety but also ensures you are always aware of your ride’s status, minimizing wait times and optimizing your travel schedule. With Raido, you’re always in the know, making your commute more predictable and stress-free.",
     cta: <SocialMedia variant={2} />,
-    noMargin:true
+    noMargin: true,
   },
   {
     id: "cs5",
@@ -129,7 +130,7 @@ const cabServices = [
     img: "ui",
     text: "Raido’s app is designed with you in mind. Our user-friendly interface ensures that booking a ride is quick, simple, and hassle-free. Whether you’re a tech-savvy user or someone who prefers straightforward navigation, our app caters to all. With intuitive features, clear instructions, and easy access to all functionalities, Raido makes ride booking a breeze. You can effortlessly choose your vehicle type, track your ride, and manage your bookings all in one place. Experience the convenience of a seamlessly designed app that puts your needs first, making your travel experience smoother and more enjoyable.",
     cta: <SocialMedia variant={2} />,
-    noMargin:true
+    noMargin: true,
   },
 ];
 
@@ -209,12 +210,20 @@ const schoolServices = [
     img: "school3",
     noMargin: true,
 
-    text: "Integrated GPS tracking allows parents to view the school vehicle's route which allow them to stay informed of any delays or changes in the route. Parents receive push notifications when their child is on-boarded and get alerts when the student reaches the school and when they are picked up for the return trip. Parents will get notified if a student leaves the vehicle unexpectedly. which ensure your child's safety and whereabouts at all times.",
+    text: "Integrated GPS tracking allows parents to view the school vehicle's route which allow them to stay informed of any delays or changes in the route. Parents receive push notifications when their child is on-boarded and get alerts when the student reaches the school and when they are picked up for the return trip. which ensure your child's safety and whereabouts at all times.",
     cta: (
       <Link href="/">
         <Image src="/assets/playbtn.png" alt="logo" fluid width={170} />
       </Link>
     ),
+  },
+  {
+    id: "sc6",
+    head: "Every Ride is Insured",
+    img: "insurance",
+    text: "Travel with confidence knowing that every ride you take with Raido is fully insured. We prioritize your security by providing comprehensive insurance coverage for all our rides. This means that in the unlikely event of an accident or mishap, you are protected. Our commitment to your safety extends beyond just providing a secure ride; it includes ensuring financial protection and peace of mind. With Raido, you can relax and enjoy your journey, knowing that you are safeguarded at all times. Choose Raido for a worry-free travel experience where your safety and well-being are our utmost priority.",
+    cta: <SocialMedia variant={2} />,
+    noMargin: true,
   },
   {
     id: "sc4",
@@ -268,7 +277,8 @@ const TABS = [
     id: "t1",
     name: "Bikes and Autos",
     services: cabServices,
-    caption: "Discover the ultimate in affordable and safe transportation with Raido in Chennai. Enjoy the cheapest bike taxi and auto booking services, complete with real-time GPS tracking and instant notifications. Our user-friendly app ensures a seamless booking experience, while comprehensive ride insurance provides peace of mind. Ride confidently, knowing your safety is our top priority with Raido.",
+    caption:
+      "Discover the ultimate in affordable and safe transportation with Raido in Chennai. Enjoy the cheapest bike taxi and auto booking services, complete with real-time GPS tracking and instant notifications. Our user-friendly app ensures a seamless booking experience, while comprehensive ride insurance provides peace of mind. Ride confidently, knowing your safety is our top priority with Raido.",
   },
   {
     id: "t2",
