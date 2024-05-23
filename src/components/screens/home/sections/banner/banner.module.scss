@@ -1,6 +1,6 @@
 .bannerSection {
   position: relative;
-    min-height: 100dvh;
+  min-height: 100dvh;
   overflow: hidden;
 
   .banner {
@@ -9,11 +9,11 @@
     grid-template-columns: 50% 50%;
     align-content: center;
 
-    .sp1{
-        color: $color_1;
+    .sp1 {
+      color: $color_1;
     }
-    .sp2{
-        color: $color_2;
+    .sp2 {
+      color: $color_2;
     }
 
     .hero {
@@ -48,12 +48,12 @@
         font-weight: 600;
         margin: 0;
       }
-      p{
+      p {
         font-size: 18px;
         padding-right: 100px;
       }
+
       padding: 130px 0 50px 0;
-   
 
       @include respond-below(md) {
         h1 {

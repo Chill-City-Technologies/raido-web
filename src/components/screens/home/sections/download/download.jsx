@@ -6,6 +6,7 @@ import { Col, Image, Row } from "react-bootstrap";
 import hexToFilter from "css-filter-converter";
 import { COLORS } from "@/constants/styles";
 import Link from "next/link";
+import DownloadButtons from "@/components/download_button/download_button";
 
 const DownloadSection = () => {
   return (
@@ -35,9 +36,7 @@ const DownloadSection = () => {
                 Chennai. Download the app today and discover a better way to get
                 around the city.
               </p>
-              <Link href="/">
-                <Image src="/assets/playbtn.png" alt="logo" fluid width={200} />
-              </Link>
+              <DownloadButtons />
             </div>
           </Col>
           <Col xs={12} md={5}>

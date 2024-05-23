@@ -5,6 +5,7 @@ import styles from "./banner.module.scss";
 import CustomContainer from "@/components/ui/custom_container/custom_container";
 import { Image } from "react-bootstrap";
 import Link from "next/link";
+import DownloadButtons from "@/components/download_button/download_button";
 
 const BannerSection = () => {
   return (
@@ -24,12 +25,9 @@ const BannerSection = () => {
                 Introducing Raido&apos;s New &quot;Raido School&quot; for your
                 children&apos;s safest daily school rides. Download Raido Now.
                 <br />
-                {/* Simply download our app. */}
               </p>
 
-              <Link href="/" data-aos="flip-up">
-                <Image src="/assets/playbtn.png" alt="logo" fluid width={200} />
-              </Link>
+              <DownloadButtons />
             </div>
           </div>
           <div className={styles.hero}>

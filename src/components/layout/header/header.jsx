@@ -12,16 +12,16 @@ const Header = () => {
   const router = useRouter();
 
   const [show, setShow] = useState(false);
-  const [scrolled,setScrolled] = useState(false)
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScrolled(window.scrollY > 0)
+      setScrolled(window.scrollY > 0);
     });
   }, []);
 
   return (
-    <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`} >
+    <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <HeaderDrawer setShow={setShow} show={show} router={router} />
       <CustomContainer>
         <div className={styles.wrap}>
@@ -37,6 +37,9 @@ const Header = () => {
                 </li>
               ))}
             </ul>
+          </nav>
+
+          <div >
             <Link href="/">
               <Image
                 src="/assets/playbtn.png"
@@ -45,7 +48,16 @@ const Header = () => {
                 className={styles.gbtn}
               />
             </Link>
-          </nav>
+            &nbsp; &nbsp;
+            <Link href="/">
+              <Image
+                src="/assets/apple.svg"
+                alt="logo"
+                fluid
+                className={styles.gbtn}
+              />
+            </Link>
+          </div>
           <List
             className={styles.btn}
             onClick={() => {

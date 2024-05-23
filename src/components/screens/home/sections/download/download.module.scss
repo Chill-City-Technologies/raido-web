@@ -21,6 +21,7 @@
 
     @include respond-below(md) {
       text-align: center;
+      align-items: center;
     }
   }
 
