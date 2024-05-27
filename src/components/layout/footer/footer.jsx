@@ -6,6 +6,23 @@ import Link from "next/link";
 import PAGES from "@/constants/pages";
 import SocialMedia from "@/components/social_media/social_media";
 import TABS from "@/constants/services";
+import DownloadButtons from "@/components/download_button/download_button";
+
+export const DownloadSection = ({isAbout}) => {
+  return <Col xs={12} md={6} lg={3}>
+    <div className={`${styles.sec} ${styles.sec1}`}>
+      <h4>Download Raido</h4>
+      <DownloadButtons isHeader />
+      {
+        isAbout && <br/>
+      }
+      <h4>Follow Us On</h4>
+      <SocialMedia variant={isAbout && 2}/>
+    </div>
+  </Col>;
+};
+
+// export Download;
 
 const Footer = () => {
   return (
@@ -37,31 +54,17 @@ const Footer = () => {
           <Col xs={6} md={6} lg={2}>
             <div className={`${styles.sec} ${styles.sec2}`}>
               <h4>Services</h4>
-              {TABS.map((p,i) => (
+              {TABS.map((p, i) => (
                 <p key={p.name} className={styles.links}>
                   <Link href={`/services?t=${i}`}>{p.name}</Link>
                 </p>
               ))}
             </div>
           </Col>
-          <Col xs={12} md={6} lg={3}>
-            <div className={`${styles.sec} ${styles.sec1}`}>
-              <h4>Download Raido</h4>
-              <Link href="/">
-                <Image
-                  src="/assets/playbtn.png"
-                  alt="logo"
-                  fluid
-                  className={styles.gbtn}
-                  width={150}
-                />
-              </Link>
-              <h4>Follow Us On</h4>
-              <SocialMedia />
-            </div>
-          </Col>
+
+          <DownloadSection/>
         </Row>
-        <hr/>
+        <hr />
       </CustomContainer>
     </footer>
   );

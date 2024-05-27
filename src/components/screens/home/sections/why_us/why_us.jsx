@@ -32,20 +32,20 @@ const WhyUs = () => {
     },
     {
       id: "drop",
-      img: "drop.jpg",
+      img: "drop.svg",
       head: "Quick Drop",
       text: "With Raido's experienced and well trained Drivers, We are the Trend setters of smart commute be it traffic or rush hours.",
     },
 
     {
       id: "price2",
-      img: "price2.svg",
+      img: "price3.svg",
       head: "Affordable Price",
       text: "Raido provides the most affordable cab service in the town. NO HIDDEN CHARGES!. NO COMMISSION!",
     },
     {
       id: "insurance",
-      img: "insurance.svg",
+      img: "insurance2.svg",
       head: "Insured Rides",
       text: "With Raido, You are in safe hands. Your Safety is out top-most Priority. Your Each and every ride is insured",
     },

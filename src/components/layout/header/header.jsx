@@ -25,7 +25,11 @@ const Header = () => {
       <HeaderDrawer setShow={setShow} show={show} router={router} />
       <CustomContainer>
         <div className={styles.wrap}>
-          <Image src="/logo.png" alt="logo" fluid className={styles.logo} />
+          <div>
+            <Link href="/">
+              <Image src="/logo.png" alt="logo" fluid className={styles.logo} />
+            </Link>
+          </div>
           <nav>
             <ul>
               {PAGES.map((page) => (
@@ -39,7 +43,7 @@ const Header = () => {
             </ul>
           </nav>
 
-          <div >
+          <div>
             <Link href="/">
               <Image
                 src="/assets/playbtn.png"
