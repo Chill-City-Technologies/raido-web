@@ -12,7 +12,7 @@ const riderServices = [
   {
     id: "rs1",
     head: "Unlimited Rides, One Monthly Fee",
-    img: "subs",
+    img: "raido_stars_logo",
     noMargin: true,
     text: (
       <>

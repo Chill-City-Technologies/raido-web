@@ -93,7 +93,7 @@ const WhyUs = () => {
     },
     {
       id: "rider",
-      name: "As a Rideo Star",
+      name: "As a Raido Star",
       content: riderCards,
     },
   ];

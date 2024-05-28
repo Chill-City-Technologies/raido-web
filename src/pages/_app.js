@@ -63,9 +63,29 @@ export default function App({ Component, pageProps }) {
       {isLoading ? (
         <div className={styles.splash}>
           <Image src="/splash.gif" alt="splash" width={200} />
+          <div>
+            <Image
+              src="/Your Riding.png"
+              alt="splash"
+              height={10}
+              data-aos="fade-right"
+              data-aos-delay='1200'
+            />
+            <Image
+              src="/partner.png"
+              alt="splash"
+              height={10}
+              data-aos="fade-left"
+              data-aos-delay='1200'
+            />
+          </div>
         </div>
       ) : (
-        <div className={`${fonts.mainFont} ${styles.app} ${isLoading ? styles.loading : ""}`}>
+        <div
+          className={`${fonts.mainFont} ${styles.app} ${
+            isLoading ? styles.loading : ""
+          }`}
+        >
           <Layout>
             <Component {...pageProps} admin={admin} />
           </Layout>
