@@ -52,7 +52,7 @@ const DownloadSection = () => {
               />
               <Image
                 // src="/assets/svg/phone_map.svg"
-                src="/assets/phone.png"
+                src="/assets/phone2.png"
                 className={styles.img}
                 alt="phone_map"
                 fluid
