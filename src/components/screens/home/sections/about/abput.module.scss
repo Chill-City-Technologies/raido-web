@@ -2,17 +2,35 @@
   padding-bottom: 100px;
 
   .left {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    // display: flex;
+    // flex-direction: column;
+    // gap: 20px;
     padding-bottom: 30px;
+
+    h3 {
+      font-size: 30px;
+    }
+
+    hr {
+      width: 150px;
+      height: 5px;
+      border: none;
+      background-color: $color_1;
+      opacity: 1;
+    }
   }
 
   .img {
-    padding: 0 50px;
-    img {
-      border-radius: 20px !important;
-      background-color: red;
+    >img{
+      margin-bottom: 20px;
+    }
+    .logos{
+      display: flex;
+      justify-content: space-around;
+      img{
+        width: 48%;
+
+      }
     }
   }
 

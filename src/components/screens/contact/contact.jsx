@@ -30,11 +30,11 @@ const ContactScreen = () => {
               </div>
               <div className={styles.det}>
                 <PhoneFill />
-                <p>admin@raidotaxi.com</p>
+                <p>+91 86677 91632</p>
               </div>
               <div className={styles.det}>
                 <PinMapFill />
-                <p>admin@raidotaxi.com</p>
+                <p>Chennai, Coimbatore</p>
               </div>
             </div>
             <div>

@@ -8,18 +8,18 @@ import SocialMedia from "@/components/social_media/social_media";
 import TABS from "@/constants/services";
 import DownloadButtons from "@/components/download_button/download_button";
 
-export const DownloadSection = ({isAbout}) => {
-  return <Col xs={12} md={6} lg={3}>
-    <div className={`${styles.sec} ${styles.sec1}`}>
-      <h4>Download Raido</h4>
-      <DownloadButtons isHeader />
-      {
-        isAbout && <br/>
-      }
-      <h4>Follow Us On</h4>
-      <SocialMedia variant={isAbout && 2}/>
-    </div>
-  </Col>;
+export const DownloadSection = ({ isAbout }) => {
+  return (
+    <Col xs={12} md={6} lg={3}>
+      <div className={`${styles.sec} ${styles.sec1}`}>
+        <h4>Download Raido</h4>
+        <DownloadButtons isHeader />
+        {isAbout && <br />}
+        <h4>Follow Us On</h4>
+        <SocialMedia variant={isAbout && 2} />
+      </div>
+    </Col>
+  );
 };
 
 // export Download;
@@ -34,10 +34,12 @@ const Footer = () => {
               <Image src="/logo.png" alt="logo" width={180} />
               <br />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                fuga vero maxime! Numquam accusamus, nulla incidunt, dolore
-                voluptate fuga consectetur dolores, maiores sapiente culpa sint
-                odit. Suscipit facere rerum accusamus!
+                Chennai&apos;s budding bike taxi and auto booking app. We offer the
+                most affordable cab service in town with no hidden charges for
+                drivers or customers. Unlike others, we charge zero commission
+                to our drivers, ensuring fair earnings and exceptional service.
+                Providing daily school rides, parents can track their children&apos;s
+                journey in real-time.
               </p>
             </div>
           </Col>
@@ -62,7 +64,7 @@ const Footer = () => {
             </div>
           </Col>
 
-          <DownloadSection/>
+          <DownloadSection />
         </Row>
         <hr />
       </CustomContainer>

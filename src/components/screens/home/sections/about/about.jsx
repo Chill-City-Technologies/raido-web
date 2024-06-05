@@ -4,6 +4,7 @@ import SectionHeading from "@/components/ui/section_heading/section_heading";
 import { Col, Image, Row } from "react-bootstrap";
 import CustomContainer from "@/components/ui/custom_container/custom_container";
 import CustomButton from "@/components/ui/custom_button/custom_button";
+import Link from "next/link";
 
 const AboutSection = () => {
   return (
@@ -11,8 +12,10 @@ const AboutSection = () => {
       <SectionHeading head="Know Us Better" />
       <CustomContainer>
         <Row>
-          <Col xs={12} md={8}>
+          <Col xs={12} md={7}>
             <div className={styles.left} data-aos="fade-right">
+              <h3>Let Us Be Your Riding Partner</h3>
+              <hr />
               <p>
                 Welcome to Raido, Chennai&apos;s budding bike taxi and auto
                 booking app. We offer the most affordable cab service in town
@@ -32,12 +35,23 @@ const AboutSection = () => {
                 we are dedicated to transforming the way Chennai travels. Choose
                 Raido for a ride you can trust, every time.
               </p>
-              <CustomButton>Know More</CustomButton>
+<br/>
+              <CustomButton>
+                <Link href='/about'>Know More</Link>
+              </CustomButton>
             </div>
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={5}>
             <div className={styles.img} data-aos="fade-left">
-              <Image src="/assets/auto.jpg" alt="auto" fluid />
+              <Image src="/logo.png" alt="auto" fluid />
+              <div className={styles.logos}>
+                <Image
+                  src="/assets/svg/raido_stars_logo.svg"
+                  alt="auto"
+                  fluid
+                />
+                <Image src="/assets/svg/school1.svg" alt="auto" fluid />
+              </div>
             </div>
           </Col>
         </Row>

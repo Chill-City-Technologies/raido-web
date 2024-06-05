@@ -51,7 +51,8 @@ const DownloadSection = () => {
                 }}
               />
               <Image
-                src="/assets/svg/phone_map.svg"
+                // src="/assets/svg/phone_map.svg"
+                src="/assets/phone.png"
                 className={styles.img}
                 alt="phone_map"
                 fluid

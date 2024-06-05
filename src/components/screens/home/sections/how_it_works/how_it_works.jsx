@@ -3,6 +3,8 @@ import styles from "./how_it_works.module.scss";
 import SectionHeading from "@/components/ui/section_heading/section_heading";
 import CustomContainer from "@/components/ui/custom_container/custom_container";
 import { Col, Image, Row } from "react-bootstrap";
+import CustomButton from "@/components/ui/custom_button/custom_button";
+import Link from "next/link";
 
 const Step = ({ data }) => {
   const { id, head, text } = data;
@@ -25,22 +27,22 @@ const HowItWorksSection = () => {
     {
       id: "book",
       head: "Book in Just 3 Taps",
-      text: "Curabitur ac quam aliquam urna vehicula semper sed vel elit. Sed et leo purus. Vivamus vitae sapien.",
+      text: "Choose where you want to be picked up. Select the destination on the map. Tap Book.",
     },
     {
       id: "driver",
-      head: "Get a Driver",
-      text: "Curabitur ac quam aliquam urna vehicula semper sed vel elit. Sed et leo purus. Vivamus vitae sapien.",
+      head: "Get a Raido Star",
+      text: "Our intelligent algorithm will list your nearest Raidos Star automatically. You can choose your preferred Raido Star. Or let Raido choose for you.",
     },
     {
       id: "track",
-      head: "Track your Driver",
-      text: "Curabitur ac quam aliquam urna vehicula semper sed vel elit. Sed et leo purus. Vivamus vitae sapien.",
+      head: "Track your Ride",
+      text: "Once booked, You can track your ride from pick-up to drop in our user friendly interface. Just sit-back and relax.",
     },
     {
       id: "arrive",
       head: "Arrive safely",
-      text: "Curabitur ac quam aliquam urna vehicula semper sed vel elit. Sed et leo purus. Vivamus vitae sapien.",
+      text: "Your safety is always our foremost concern. Our Well-trained and experienced Stars will make sure you arrive safely. allowing you to ride confidently and securely.",
     },
   ];
 
@@ -51,7 +53,7 @@ const HowItWorksSection = () => {
         <Row>
           <Col xs={12} md={6}>
             <div className={styles.left} data-aos="fade-right">
-              <h3>Lorem ipsum dolor sit.</h3>
+              <h3>Your Easiest Way To Book a Raid</h3>
               <hr />
               <p>
                 Using Raido is simple and efficient. First, download our
@@ -67,6 +69,10 @@ const HowItWorksSection = () => {
                 confirming your booking. Experience hassle-free travel with
                 Raido – Chennai&apos;s premier bike taxi and auto booking app.
               </p>
+              <br/>
+              <CustomButton>
+                <Link href='/services'>Other Services</Link>
+              </CustomButton>
             </div>
           </Col>
           <Col xs={12} md={6}>
