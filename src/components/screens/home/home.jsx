@@ -13,7 +13,7 @@ const HomeScreen = () => {
       <WhyUs/>
       <HowItWorksSection/>
       <DownloadSection/>
-      <ReviewsSection/>
+      
     </main>
   );
 };
