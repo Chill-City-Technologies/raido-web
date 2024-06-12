@@ -11,22 +11,6 @@ import { Image } from "react-bootstrap";
 import styles from "@/styles/Home.module.scss";
 
 // Import the functions you need from the SDKs you need
-
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-// const firebaseConfig = {
-//   apiKey: "AIzaSyC_Ebu1Tg4nWb6eUudi8c3QXTBsJVdpNC0",
-//   authDomain: "staxrealty3040.firebaseapp.com",
-//   projectId: "staxrealty3040",
-//   storageBucket: "staxrealty3040.appspot.com",
-//   messagingSenderId: "369649822263",
-//   appId: "1:369649822263:web:4759dcd222ef4bc4cb2db2",
-//   measurementId: "G-NE5JEHL3FY",
-// };
-
 export default function App({ Component, pageProps }) {
   const [admin, setAdmin] = useState(null);
 
