@@ -45,7 +45,21 @@ const ServicesScreen = () => {
         />
         <br />
         <p className={styles.cap}>{currentTab.caption}</p>
-        <div className={styles.gap} />
+         {currentTab?.id !== "t2" && <div className={styles.gap} />}
+        {currentTab?.id === "t2" && (
+          <>
+            <h4
+              style={{
+                fontSize: "60px",
+                textAlign: "center",
+              }}
+            >
+              Coming Soon..
+            </h4>
+            <br />
+            <br />
+          </>
+        )}
 
         {currentTab.services.map((s, i) => (
           <Service key={s.id} data={s} isRight={!(i % 2)} />
