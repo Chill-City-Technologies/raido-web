@@ -59,7 +59,7 @@ const AboutScreen = () => {
                 </p>
                 <br />
                 <p>
-                  <strong>CEO Name,</strong>
+                  <strong>Abishek Muniasamy</strong>
                 </p>
                 <p>CEO, Raido.</p>
               </div>
