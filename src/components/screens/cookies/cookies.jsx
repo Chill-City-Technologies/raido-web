@@ -4,11 +4,7 @@ import styles from './CookiesPolicy.module.scss';
 const CookiesPolicy = () => {
   return (
     <div className={styles.cookiesContainer}>
-      <Head>
-        <title>Raido Cookies Policy</title>
-        <meta name="description" content="Cookies Policy for Raido's services" />
-      </Head>
-      <main className={styles.cookiesMain}>
+    
         <h1>Raido Cookies Policy</h1>
         <p>This Cookies Policy explains how Raido we, us, our uses cookies and similar technologies on our website and mobile application. By using our services, you consent to the use of cookies in accordance with this policy.</p>
 
@@ -68,7 +64,7 @@ const CookiesPolicy = () => {
         </ul>
 
         <p>By using Raido's services, you acknowledge that you have read, understood, and agree to be bound by this Cookies Policy.</p>
-      </main>
+   
     </div>
   );
 };
