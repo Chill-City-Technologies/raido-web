@@ -3,7 +3,6 @@ import styles from "./footer.module.scss";
 import CustomContainer from "@/components/ui/custom_container/custom_container";
 import { Col, Image, Row } from "react-bootstrap";
 import Link from "next/link";
-import PAGES from "@/constants/pages";
 import SocialMedia from "@/components/social_media/social_media";
 import TABS from "@/constants/services";
 import DownloadButtons from "@/components/download_button/download_button";
@@ -21,6 +20,44 @@ export const DownloadSection = ({ isAbout }) => {
     </Col>
   );
 };
+const PAGES = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "About",
+    href: "/about",
+  },
+  {
+    name: "Services",
+    href: "/services",
+  },
+  {
+    name: "Contact",
+    href: "/contact",
+  },
+  {
+    name: "Privacy Policy",
+    href: "/privacy",
+  },
+  {
+    name: "Terms of Service",
+    href: "/terms",
+  },
+  {
+    name: "Cookies Policy",
+    href: "/cookies",
+  },
+  {
+    name: "Refund Policy",
+    href: "/refund",
+  },
+  {
+    name: "Disclaimer",
+    href: "/disclamer",
+  },
+];
 
 // export Download;
 
