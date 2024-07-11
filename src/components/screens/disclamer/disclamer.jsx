@@ -14,7 +14,7 @@ const Disclaimer = () => {
         <p>Welcome to Raido, your reliable ride-hailing service. By using our website, mobile application, and services, you agree to the following disclaimers. If you do not agree with any part of these disclaimers, please do not use our services.</p>
 
         <h2>1. General Disclaimer</h2>
-        <p>Raido provides its services "as is" and "as available" without any warranties, express or implied, regarding the website, app, or services. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
+        <p>Raido provides its services as is and as available without any warranties, express or implied, regarding the website, app, or services. This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
 
         <h2>2. Accuracy of Information</h2>
         <p>While we strive to provide accurate and up-to-date information on our website and app, we do not guarantee the completeness, accuracy, or reliability of any information provided. Any reliance you place on such information is strictly at your own risk.</p>
