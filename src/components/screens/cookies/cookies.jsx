@@ -1,4 +1,3 @@
-// pages/cookies-policy.js
 import Head from 'next/head';
 import styles from './CookiesPolicy.module.scss';
 
