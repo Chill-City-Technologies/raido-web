@@ -16,9 +16,9 @@ const Terms = () => {
         
         <h2>1. Definitions</h2>
         <ul>
-          <li><strong>"Raido"</strong> refers to our company, the owner and operator of the Raido app and website.</li>
-          <li><strong>"User"</strong> refers to any individual or entity using our services, including drivers and passengers.</li>
-          <li><strong>"Service"</strong> refers to the ride-hailing services provided by Raido, including bike, car, and cab rides.</li>
+          <li><strong>&quot;Raido&quot;</strong> refers to our company, the owner and operator of the Raido app and website.</li>
+          <li><strong>&quot;User&quot;</strong> refers to any individual or entity using our services, including drivers and passengers.</li>
+          <li><strong>&quot;Service&quot;</strong> refers to the ride-hailing services provided by Raido, including bike, car, and cab rides.</li>
         </ul>
         
         <h2>2. Eligibility</h2>
