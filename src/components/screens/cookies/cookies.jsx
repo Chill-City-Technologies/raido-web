@@ -11,7 +11,7 @@ const CookiesPolicy = () => {
       </Head>
       <main className={styles.cookiesMain}>
         <h1>Raido Cookies Policy</h1>
-        <p>This Cookies Policy explains how Raido ("we", "us", "our") uses cookies and similar technologies on our website and mobile application. By using our services, you consent to the use of cookies in accordance with this policy.</p>
+        <p>This Cookies Policy explains how Raido we, us, our uses cookies and similar technologies on our website and mobile application. By using our services, you consent to the use of cookies in accordance with this policy.</p>
 
         <h2>1. What Are Cookies?</h2>
         <p>Cookies are small text files stored on your device (computer, tablet, or mobile) by your web browser when you visit a website. Cookies allow websites to recognize your device, store preferences, and understand your interactions with the site.</p>
