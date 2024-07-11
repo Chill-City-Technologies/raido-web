@@ -1,4 +1,3 @@
-// pages/disclaimer.js
 import Head from 'next/head';
 import styles from './Disclaimer.module.scss';
 
