@@ -6,7 +6,7 @@ const CookiesPolicy = () => {
     <div className={styles.cookiesContainer}>
       <Head>
         <title>Raido Cookies Policy</title>
-        <meta name="description" content="Cookies Policy for Raido&apos;s services" />
+        <meta name="description" content="Cookies Policy for Raido's services" />
       </Head>
       <main className={styles.cookiesMain}>
         <h1>Raido Cookies Policy</h1>
@@ -67,7 +67,7 @@ const CookiesPolicy = () => {
           <li>Email: admin@raidotaxi.com</li>
         </ul>
 
-        <p>By using Raido&apos;s services, you acknowledge that you have read, understood, and agree to be bound by this Cookies Policy.</p>
+        <p>By using Raido's services, you acknowledge that you have read, understood, and agree to be bound by this Cookies Policy.</p>
       </main>
     </div>
   );
