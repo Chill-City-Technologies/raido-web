@@ -1,4 +1,3 @@
-// pages/refund-policy.js
 import Head from 'next/head';
 import styles from './RefundPolicy.module.scss';
 
@@ -73,7 +72,7 @@ const RefundPolicy = () => {
           <li>Email: admin@raidotaxi.com</li>
         </ul>
 
-        <p>By using Raido's services, you acknowledge that you have read, understood, and agree to be bound by this Refund Policy.</p>
+        <p>By using Raido&apos;s services, you acknowledge that you have read, understood, and agree to be bound by this Refund Policy.</p>
       </main>
     </div>
   );
