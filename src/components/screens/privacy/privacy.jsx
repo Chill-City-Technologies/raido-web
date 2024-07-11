@@ -1,4 +1,3 @@
-// pages/privacy-policy.js
 import Head from 'next/head';
 import styles from './PrivacyPolicy.module.scss';
 
@@ -12,7 +11,7 @@ const PrivacyPolicy = () => {
       <main className={styles.privacyMain}>
         <h1>Raido Privacy Policy</h1>
         <p>At Raido, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you use our ride-hailing services via our app and website.</p>
-        <p>By using Raidos services, you agree to the collection and use of your information in accordance with this policy.</p>
+        <p>By using Raido&apos;s services, you agree to the collection and use of your information in accordance with this policy.</p>
         
         <h2>1. Information We Collect</h2>
         <p>We collect various types of information to provide and improve our services for you.</p>
@@ -74,7 +73,7 @@ const PrivacyPolicy = () => {
           <li>Email: admin@raidotaxi.com</li>
         </ul>
         
-        <p>By using Raidos services, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.</p>
+        <p>By using Raido&apos;s services, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.</p>
       </main>
     </div>
   );
