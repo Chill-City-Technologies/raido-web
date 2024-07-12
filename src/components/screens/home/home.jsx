@@ -8,6 +8,11 @@ import WhyUs from "./sections/why_us/why_us";
 const HomeScreen = () => {
   return (
     <main>
+      <BannerSection />
+      <AboutSection/>
+      <WhyUs/>
+      <HowItWorksSection/>
+      <DownloadSection/>
       
     </main>
   );
