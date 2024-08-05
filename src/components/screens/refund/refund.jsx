@@ -60,7 +60,7 @@ const RefundPolicy = () => {
         <p>Our customer support team will review the refund request and respond within 7-10 business days. During this review, we may contact you for additional information or clarification.</p>
 
         <h3>3.4. Refund Processing</h3>
-        <p>If the refund request is approved, the refund will be processed within 14 business days. The refund will be credited to the original payment method used for the booking.</p>
+        <p>If the refund request is approved, the refund will be processed within 3-5 business days. The refund will be credited to the original payment method used for the booking.</p>
 
         <h2>4. Changes to This Refund Policy</h2>
         <p>Raido reserves the right to update this Refund Policy at any time. Changes will be posted on our website and will take effect immediately upon posting. Users are encouraged to review this policy periodically to stay informed about any changes.</p>
