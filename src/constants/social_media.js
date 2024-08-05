@@ -1,11 +1,11 @@
 const SOCIAL_MEDIA_LINKS = [
   {
     name: "facebook",
-    link: "/",
+    link: "/https://www.facebook.com/profile.php?id=61560272615950&mibextid=ZbWKwL",
   },
   {
     name: "instagram",
-    link: "/",
+    link: "/https://www.instagram.com/just_raido",
   },
   {
     name: "twitter",
