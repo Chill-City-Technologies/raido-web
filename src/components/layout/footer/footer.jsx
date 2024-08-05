@@ -104,6 +104,7 @@ const Footer = () => {
           <DownloadSection />
         </Row>
         <hr />
+        <small>All rights reserved by Raido, powerd by Chill City Technology</small>
       </CustomContainer>
     </footer>
   );
