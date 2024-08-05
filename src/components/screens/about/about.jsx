@@ -11,7 +11,7 @@ const AboutScreen = () => {
       <SectionHeading head="About Us" />
       <CustomContainer>
         <p className={styles.caption}>
-          Welcome to SODOKSODKSOKD, Chennai&apos;s budding bike taxi and auto booking
+          Welcome to Raido: Powered by Chill City Technology, Chennai&apos;s budding bike taxi and auto booking
           app. We offer the most affordable cab service in town with no hidden
           charges for drivers or customers. Unlike others, we charge zero
           commission to our drivers, ensuring fair earnings and exceptional
