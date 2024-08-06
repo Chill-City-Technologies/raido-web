@@ -33,6 +33,8 @@ const AboutSection = () => {
                 At Raido, we make commuting affordable and convenient in Chennai. Our bike and auto taxi services are designed to offer the lowest rates around. Whether you're heading to work or exploring the city, we ensure you travel without high costs. With clear and transparent pricing, there are no hidden fees. Bike taxi owners pay just 20 INR per day, while auto taxi owners pay 30 INR per day. Enjoy unlimited rides with zero commission, meaning all your earnings stay with you. Choose Raido for an economical and efficient travel experience, and keep more of what you earn.
               </p>
               <p>
+                </p>
+              <p>
                 Join the Raido community today and experience the difference.
                 With our commitment to affordability, transparency, and safety,
                 we are dedicated to transforming the way Chennai travels. Choose
