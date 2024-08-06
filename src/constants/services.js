@@ -96,7 +96,13 @@ const cabServices = [
     id: "cs1",
     head: "Most Affordable Bike Taxi and Auto Booking",
     img: "hero2",
-    text: "At Raido, we understand the importance of affordability and convenience in your daily commute. Our bike taxi and auto booking services are designed to provide you with the cheapest transportation options in Chennai. Whether you’re heading to work, running errands, or exploring the city, Raido ensures you get to your destination without breaking the bank. Our competitive pricing is tailored to fit every budget, making us the go-to choice for cost-effective travel. With Raido, you can expect transparent fare structures, no hidden charges, and a commitment to delivering value with every ride. Choose Raido for an economical and efficient travel experience.",
+    text: (
+      <>
+       <p>
+         At Raido, we make commuting affordable and convenient in Chennai. Our bike and auto taxi services are designed to offer the lowest rates around. Whether you're heading to work or exploring the city, we ensure you travel without high costs. With clear and transparent pricing, there are no hidden fees. <strong>Bike taxi owners pay just 20 INR per day, while auto taxi owners pay 30 INR per day.</strong> Enjoy unlimited rides with zero commission, meaning all your earnings stay with you. Choose Raido for an economical and efficient travel experience, and keep more of what you earn.
+        </p>
+      </>
+    ),
     cta: <SocialMedia variant={2} />,
     noMargin: true,
   },
