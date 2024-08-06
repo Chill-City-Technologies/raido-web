@@ -30,11 +30,15 @@ const ContactScreen = () => {
               </div>
               <div className={styles.det}>
                 <PhoneFill />
-                <p>+91 86677 91632</p>
+                <p>+91 86677 28057</p>
               </div>
               <div className={styles.det}>
                 <PinMapFill />
                 <p>Chennai, Coimbatore</p>
+              </div>
+               <div className={styles.det}>
+               
+                <p>Head Office : 25-B, Second Floor, Ram Nagar North Extension,<br/>Second Street, Velachery<br/>Chennai - 600 042</p>
               </div>
             </div>
             <div>
