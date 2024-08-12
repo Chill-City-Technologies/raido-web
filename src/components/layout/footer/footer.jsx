@@ -71,12 +71,12 @@ const Footer = () => {
               <Image src="/logo.png" alt="logo" width={180} />
               <br />
               <p>
-                Chennai&apos;s budding bike taxi and auto booking app. We offer the
-                most affordable taxi service in town with no hidden charges for
-                drivers or customers. Unlike others, we charge zero commission
-                to our drivers, ensuring fair earnings and exceptional service.
-                Providing daily school rides, parents can track their children&apos;s
-                journey in real-time.
+                Chennai&apos;s budding bike taxi and auto booking app. We offer
+                the most affordable taxi service in town with no hidden charges
+                for drivers or customers. Unlike others, we charge zero
+                commission to our drivers, ensuring fair earnings and
+                exceptional service. Providing daily school rides, parents can
+                track their children&apos;s journey in real-time.
               </p>
             </div>
           </Col>
@@ -104,7 +104,10 @@ const Footer = () => {
           <DownloadSection />
         </Row>
         <hr />
-        <small> ©®Chill City Technology Private Limited.All rights reserved. </small>
+        <small>
+          ©®All rights reserved by Raido Powered by CHILL CITY TECHNOLOGY
+          Private Limited
+        </small>
       </CustomContainer>
     </footer>
   );
