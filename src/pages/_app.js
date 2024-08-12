@@ -9,7 +9,6 @@ import Layout from "@/components/layout/layout";
 import fonts from "@/styles/fonts";
 import { Image } from "react-bootstrap";
 import styles from "@/styles/Home.module.scss";
-import Head from "next/head";
 
 // Import the functions you need from the SDKs you need
 export default function App({ Component, pageProps }) {
