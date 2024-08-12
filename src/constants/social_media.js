@@ -17,10 +17,8 @@ const SOCIAL_MEDIA_LINKS = [
   },
   {
     name: "linkedin",
-    link: "/",
+    link: "https://www.linkedin.com/company/raidotaxi/",
   },
 ];
 
-
-
-export default SOCIAL_MEDIA_LINKS
+export default SOCIAL_MEDIA_LINKS;
