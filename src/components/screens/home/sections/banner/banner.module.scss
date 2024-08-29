@@ -16,6 +16,11 @@
       color: $color_2;
     }
 
+    .highlight {
+      font-size: 45px;
+      font-weight: 700;
+    }
+
     .hero {
       //   height: 100dvh;
       display: flex;
@@ -44,13 +49,18 @@
         gap: 20px;
       }
       h1 {
-        font-size: 70px;
+        font-size: 35px;
         font-weight: 600;
         margin: 0;
       }
       p {
         font-size: 18px;
         padding-right: 100px;
+      }
+
+      .comingSoon {
+        font-weight: bold; // Makes the text bold
+        font-size: 50px; // Adjust the size as needed
       }
 
       padding: 130px 0 50px 0;
