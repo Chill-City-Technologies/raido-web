@@ -11,7 +11,7 @@ const { StarFill } = require("react-bootstrap-icons");
 const riderServices = [
   {
     id: "rs1",
-    head: "Unlimited Rides, One Monthly Fee",
+    head: "Drive unlimited with a daily subscription—earn more, every day!",
     img: "raido_stars_logo",
     noMargin: true,
     text: (

@@ -17,6 +17,12 @@ const BannerSection = () => {
           <div className={styles.cont}>
             <div>
               <h1 data-aos="fade-down">
+                <span className={styles.highlight}>
+                  0% <span className={styles.sp2}>Commission</span> is our{" "}
+                  <span className={styles.sp1}>Mission</span>
+                </span>
+                <br />
+                <br />
                 Book Your <span className={styles.sp2}>Safest</span> &{" "}
                 <span className={styles.sp1}>Affordable</span> Bike, Auto &
                 School Rides Today
@@ -27,6 +33,9 @@ const BannerSection = () => {
                 <br />
               </p>
 
+              <p data-aos="fade-up" className={styles.comingSoon}>
+                Coming Soon...
+              </p>
               <DownloadButtons />
             </div>
           </div>
