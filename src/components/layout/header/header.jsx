@@ -44,7 +44,7 @@ const Header = () => {
           </nav>
 
           <div>
-            <Link href="/">
+            <Link href="https://play.google.com/store/apps/details?id=com.raido.customer">
               <Image
                 src="/assets/playbtn.png"
                 alt="logo"
@@ -53,14 +53,14 @@ const Header = () => {
               />
             </Link>
             &nbsp; &nbsp;
-            {/* <Link href="/">
+            <Link href="/">
               <Image
                 src="/assets/apple.svg"
                 alt="logo"
                 fluid
                 className={styles.gbtn}
               />
-            </Link> */}
+            </Link>
           </div>
           <List
             className={styles.btn}
