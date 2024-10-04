@@ -53,14 +53,14 @@ const Header = () => {
               />
             </Link>
             &nbsp; &nbsp;
-            <Link href="/">
+            {/* <Link href="/">
               <Image
                 src="/assets/apple.svg"
                 alt="logo"
                 fluid
                 className={styles.gbtn}
               />
-            </Link>
+            </Link> */}
           </div>
           <List
             className={styles.btn}

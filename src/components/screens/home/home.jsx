@@ -9,11 +9,10 @@ const HomeScreen = () => {
   return (
     <main>
       <BannerSection />
-      <AboutSection/>
-      <WhyUs/>
-      <HowItWorksSection/>
-      <DownloadSection/>
-      
+      <AboutSection />
+      <WhyUs />
+      <HowItWorksSection />
+      <DownloadSection />
     </main>
   );
 };

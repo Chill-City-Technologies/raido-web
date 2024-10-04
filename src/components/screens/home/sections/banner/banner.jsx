@@ -32,10 +32,6 @@ const BannerSection = () => {
                 children&apos;s safest daily school rides. Download Raido Now.
                 <br />
               </p>
-
-              <p data-aos="fade-up" className={styles.comingSoon}>
-                Coming Soon...
-              </p>
               <DownloadButtons />
             </div>
           </div>
