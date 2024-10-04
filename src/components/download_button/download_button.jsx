@@ -18,7 +18,7 @@ const DownloadButtons = ({ isHeader }) => {
           className={styles.play}
         />
       </Link>
-      {/* <Link href="/" data-aos={!isHeader && "flip-up"}>
+      <Link href="/" data-aos={!isHeader && "flip-up"}>
         <Image
           className={styles.apl}
           src="/assets/apple.svg"
@@ -26,7 +26,7 @@ const DownloadButtons = ({ isHeader }) => {
           fluid
           width={180}
         />
-      </Link> */}
+      </Link>
     </div>
   );
 };
