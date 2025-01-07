@@ -26,13 +26,13 @@ const WhyUs = () => {
   const customerCards = [
     {
       id: "pickup",
-      img: "pickup.svg",
+      img: "ra3.svg",
       head: "Pick-Up at Door",
       text: "We will pick you up from where you are and drop you exactly where you need to be.",
     },
     {
       id: "drop",
-      img: "drop.svg",
+      img: "ra4.svg",
       head: "Quick Drop",
       text: "With Raido's experienced and well trained Drivers, We are the Trend setters of smart commute be it traffic or rush hours.",
     },
@@ -41,7 +41,7 @@ const WhyUs = () => {
       id: "price2",
       img: "price3.svg",
       head: "Affordable Price",
-      text: "Raido provides the most affordable cab service in the town. NO HIDDEN CHARGES!. NO COMMISSION!",
+      text: "Raido provides the most affordable cab service in the town. NO HIDDEN CHARGES!0%. NO COMMISSION!",
     },
     {
       id: "insurance",
@@ -103,7 +103,7 @@ const WhyUs = () => {
   return (
     <section className={styles.whyUs}>
       <SectionHeading head="Why Choose Us?" variant={2} />
-      
+
       <CustomContainer>
         <div data-aos="fade-up">
           <RaidoTabs

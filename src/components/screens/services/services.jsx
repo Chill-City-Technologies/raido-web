@@ -44,9 +44,10 @@ const ServicesScreen = () => {
           variant={2}
         />
         <br />
-        <p className={styles.cap}>{currentTab.caption}</p>
-         {currentTab?.id !== "t2" && <div className={styles.gap} />}
-        {currentTab?.id === "t2" && (
+        {currentTab?.id !== "t2" && currentTab?.id !== "t4" && (
+          <div className={styles.gap} />
+        )}
+        {(currentTab?.id === "t2" || currentTab?.id === "t4") && (
           <>
             <h4
               style={{
@@ -57,9 +58,10 @@ const ServicesScreen = () => {
               Coming Soon..
             </h4>
             <br />
-            <br />
+            {/* <br /> */}
           </>
         )}
+        <p className={styles.cap}>{currentTab.caption}</p>
 
         {currentTab.services.map((s, i) => (
           <Service key={s.id} data={s} isRight={!(i % 2)} />

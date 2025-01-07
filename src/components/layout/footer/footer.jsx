@@ -16,6 +16,15 @@ export const DownloadSection = ({ isAbout }) => {
         {isAbout && <br />}
         <h4>Follow Us On</h4>
         <SocialMedia variant={isAbout && 2} />
+        <div style={{ textAlign: "center", marginTop: "20px" }}>
+          <p style={{ margin: "0" }}>Crafted in Tamil Nadu</p>
+          <p style={{ margin: "0" }}>
+            Made in India{" "}
+            <span role="img" aria-label="Indian flag">
+              🇮🇳
+            </span>
+          </p>
+        </div>
       </div>
     </Col>
   );
@@ -71,13 +80,30 @@ const Footer = () => {
               <Image src="/logo.png" alt="logo" width={180} />
               <br />
               <p>
-                Chennai&apos;s budding bike taxi and auto booking app. We offer
-                the most affordable taxi service in town with no hidden charges
-                for drivers or customers. Unlike others, we charge zero
-                commission to our drivers, ensuring fair earnings and
-                exceptional service. Providing daily school rides, parents can
-                track their children&apos;s journey in real-time.
+                Raido, Tamil Nadu's budding auto, cab, and ambulance booking
+                app, offers the most affordable transportation services in the
+                state with no hidden charges for drivers or customers. Unlike
+                others, we charge zero commission to our drivers, ensuring fair
+                earnings and exceptional service. Providing daily school rides,
+                parents can track their children's journey in real-time. Raido
+                is revolutionizing travel across Tamil Nadu with safe, reliable,
+                and transparent transportation solutions.
               </p>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-evenly",
+                  marginTop: "10px",
+                }}
+              >
+                <Image src="/msme.jpeg" alt="image1" width={100} height={100} />
+                <Image
+                  src="/dpiit.jpeg"
+                  alt="image2"
+                  width={100}
+                  height={100}
+                />
+              </div>
             </div>
           </Col>
           <Col xs={6} md={6} lg={2}>

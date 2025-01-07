@@ -56,22 +56,21 @@ const HowItWorksSection = () => {
               <h3>Your Easiest Way To Book a Raid</h3>
               <hr />
               <p>
-                Using Raido is simple and efficient. First, download our
-                user-friendly app from the App Store or Google Play Store. Sign
-                up and enter your details to create an account. To book a ride,
-                simply open the app, set your pickup and drop-off locations, and
-                choose your preferred vehicle type. You can track your ride in
-                real-time and receive notifications about your driver&apos;s arrival
-                and trip status. Once your ride is complete, payment is
-                automatically processed through the app, eliminating the need
-                for cash transactions. With our transparent pricing and no
-                hidden charges, you&apos;ll know exactly what to expect before
-                confirming your booking. Experience hassle-free travel with
-                Raido – Chennai&apos;s premier bike taxi and auto booking app.
+                Getting started with Raido is seamless and hassle-free. Simply
+                download our easy-to-use app from the App Store or Google Play
+                Store, sign up, and create your account. Booking a ride is as
+                simple as setting your pickup and drop-off locations and
+                selecting your preferred vehicle type. Track your ride in
+                real-time, stay updated with instant notifications about your
+                driver’s arrival, and enjoy a smooth, stress-free experience.
+                With automatic in-app payments, there’s no need for cash – and
+                with our transparent pricing, you’ll always know the fare before
+                confirming your booking. Discover effortless travel with Raido –
+                Tamil Nadu’s trusted app for cab and ambulance bookings.
               </p>
-              <br/>
+              <br />
               <CustomButton>
-                <Link href='/services'>Other Services</Link>
+                <Link href="/services">Other Services</Link>
               </CustomButton>
             </div>
           </Col>

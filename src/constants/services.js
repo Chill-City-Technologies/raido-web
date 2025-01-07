@@ -17,11 +17,10 @@ const riderServices = [
     text: (
       <>
         <p>
-          At Raido, we revolutionize the way you experience bike taxi and auto
-          rides with our unique, driver-centric approach. We understand the
-          challenges faced by drivers and aim to provide a platform that truly
-          supports their growth and success. Here’s how we empower our Raido
-          Stars.
+          At Raido, we revolutionize the way you experience taxi and auto rides
+          with our unique, driver-centric approach. We understand the challenges
+          faced by drivers and aim to provide a platform that truly supports
+          their growth and success. Here’s how we empower our Raido Stars.
         </p>
         <br />
         <h4>Why Choose Raido?</h4>
@@ -50,11 +49,12 @@ const riderServices = [
         </p>
       </>
     ),
-    cta: (
-      <Link href="/">
-        <Image src="/assets/playbtn.png" alt="logo" fluid width={170} />
-      </Link>
-    ),
+    // cta:
+    // (
+    //   <Link href="/">
+    //     <Image src="/assets/playbtn.png" alt="logo" fluid width={170} />
+    //   </Link>
+    // ),
   },
   {
     id: "rs2",
@@ -62,7 +62,7 @@ const riderServices = [
     img: "comm",
     // noMargin: true,
     text: "We believe in fair earnings for all our Raido Stars. That’s why Raido charges absolutely zero commission on rides. Every penny you earn from your rides is yours to keep. By eliminating commission fees, we ensure that your hard work pays off directly.",
-    cta: <CustomButton>Contact Us Now</CustomButton>,
+    // cta: <CustomButton>Contact Us Now</CustomButton>,
   },
 
   {
@@ -70,7 +70,7 @@ const riderServices = [
     head: "Earn What You Drive",
     img: "earn",
     text: "With Raido, there are no hidden charges eating into your profits. Our transparent model guarantees that what you drive is what you earn. You won’t be surprised by unexpected deductions, allowing you to manage your finances with confidence.",
-    cta: <SocialMedia variant={2} />,
+    // cta: <SocialMedia variant={2} />,
   },
   {
     id: "rs4",
@@ -78,43 +78,43 @@ const riderServices = [
     img: "auto1",
     noMargin: true,
     text: "Starting your journey with Raido is easy and straightforward. Instead of paying recurring commissions or dealing with complex fee structures, you simply subscribe to our application. Pay a fixed amount when you start your first ride and enjoy unlimited earning potential. Our subscription model is designed to provide maximum benefit with minimal hassle.",
-    cta: (
-      <CustomButton>
-        <p>Rate us</p>
-        <StarFill />
-        <StarFill />
-        <StarFill />
-        <StarFill />
-        <StarFill />
-      </CustomButton>
-    ),
+    // cta: (
+    //   <CustomButton>
+    //     <p>Rate us</p>
+    //     <StarFill />
+    //     <StarFill />
+    //     <StarFill />
+    //     <StarFill />
+    //     <StarFill />
+    //   </CustomButton>
+    // ),
   },
 ];
 
 const cabServices = [
   {
     id: "cs1",
-    head: "Most Affordable Bike Taxi and Auto Booking",
-    img: "hero2",
+    head: "Most Affordable Auto and Cab Booking",
+    img: "ra5",
     text: (
       <>
         <p>
           At Raido, we make commuting affordable and convenient in Chennai. Our
-          bike and auto taxi services are designed to offer the lowest rates
-          around. Whether you're heading to work or exploring the city, we
-          ensure you travel without high costs. With clear and transparent
-          pricing, there are no hidden fees.{" "}
+          auto, cab, and ambulance services are designed to offer the lowest
+          rates around. Whether you're heading to work, traveling with family,
+          or requiring emergency medical transport, we ensure you travel without
+          high costs. With clear and transparent pricing, there are no hidden
+          fees.{" "}
           <strong>
-            Bike taxi owners pay just 20 INR per day, while auto taxi owners pay
-            30 INR per day.
+            Vehicle owners pay just 25 INR per day, allowing unlimited rides
+            with zero commission, so all your earnings stay with you.
           </strong>{" "}
-          Enjoy unlimited rides with zero commission, meaning all your earnings
-          stay with you. Choose Raido for an economical and efficient travel
+          Choose Raido for an economical, efficient, and reliable travel
           experience, and keep more of what you earn.
         </p>
       </>
     ),
-    cta: <SocialMedia variant={2} />,
+    // cta: <SocialMedia variant={2} />,
     noMargin: true,
   },
   {
@@ -122,7 +122,7 @@ const cabServices = [
     head: "You Safety is Our First Concern",
     img: "safety",
     text: "Your safety is our top priority at Raido. We go above and beyond to ensure that every ride is secure and comfortable. Our drivers undergo rigorous background checks and training programs to guarantee a safe journey. All our vehicles are regularly inspected and maintained to the highest standards. Additionally, we provide in-app safety features such as emergency contacts and SOS buttons to give you peace of mind while you travel. With Raido, you can trust that your well-being is always our foremost concern, allowing you to ride confidently and securely.",
-    cta: <SocialMedia variant={2} />,
+    // cta: <SocialMedia variant={2} />,
     // noMargin:true
   },
   {
@@ -130,7 +130,7 @@ const cabServices = [
     head: "Every Ride is Insured",
     img: "insurance",
     text: "Travel with confidence knowing that every ride you take with Raido is fully insured. We prioritize your security by providing comprehensive insurance coverage for all our rides. This means that in the unlikely event of an accident or mishap, you are protected. Our commitment to your safety extends beyond just providing a secure ride; it includes ensuring financial protection and peace of mind. With Raido, you can relax and enjoy your journey, knowing that you are safeguarded at all times. Choose Raido for a worry-free travel experience where your safety and well-being are our utmost priority.",
-    cta: <SocialMedia variant={2} />,
+    // cta: <SocialMedia variant={2} />,
     noMargin: true,
   },
   {
@@ -138,7 +138,7 @@ const cabServices = [
     head: "GPS Tracking and Real-Time Notifications",
     img: "navigation",
     text: "Stay connected and informed with Raido’s advanced GPS tracking and real-time notifications. Our app offers precise GPS tracking, allowing you to monitor your ride’s progress and location from start to finish. You’ll receive instant notifications about your driver’s arrival, trip status, and estimated time of arrival. This feature not only enhances your safety but also ensures you are always aware of your ride’s status, minimizing wait times and optimizing your travel schedule. With Raido, you’re always in the know, making your commute more predictable and stress-free.",
-    cta: <SocialMedia variant={2} />,
+    // cta: <SocialMedia variant={2} />,
     noMargin: true,
   },
   {
@@ -146,7 +146,7 @@ const cabServices = [
     head: "User-Friendly Interface",
     img: "ui",
     text: "Raido’s app is designed with you in mind. Our user-friendly interface ensures that booking a ride is quick, simple, and hassle-free. Whether you’re a tech-savvy user or someone who prefers straightforward navigation, our app caters to all. With intuitive features, clear instructions, and easy access to all functionalities, Raido makes ride booking a breeze. You can effortlessly choose your vehicle type, track your ride, and manage your bookings all in one place. Experience the convenience of a seamlessly designed app that puts your needs first, making your travel experience smoother and more enjoyable.",
-    cta: <SocialMedia variant={2} />,
+    // cta: <SocialMedia variant={2} />,
     noMargin: true,
   },
 ];
@@ -202,11 +202,11 @@ const schoolServices = [
         </ul>
       </>
     ),
-    cta: (
-      <Link href="/">
-        <Image src="/assets/playbtn.png" alt="logo" fluid width={170} />
-      </Link>
-    ),
+    // cta: (
+    //   <Link href="/">
+    //     <Image src="/assets/playbtn.png" alt="logo" fluid width={170} />
+    //   </Link>
+    // ),
   },
   {
     id: "sc2",
@@ -215,11 +215,11 @@ const schoolServices = [
     noMargin: true,
 
     text: "Track each student’s boarding status with ease. Our drivers use a slide button to confirm when a student boards the vehicle and when they reach their destination which tracks each and every actions when the children are with us. Parents can monitor the ride in real-time via GPS and can view the exact location of the school vehicle on a map at any time.",
-    cta: (
-      <Link href="/">
-        <Image src="/assets/playbtn.png" alt="logo" fluid width={170} />
-      </Link>
-    ),
+    // cta: (
+    //   <Link href="/">
+    //     <Image src="/assets/playbtn.png" alt="logo" fluid width={170} />
+    //   </Link>
+    // ),
   },
   {
     id: "sc3",
@@ -228,18 +228,18 @@ const schoolServices = [
     noMargin: true,
 
     text: "Integrated GPS tracking allows parents to view the school vehicle's route which allow them to stay informed of any delays or changes in the route. Parents receive push notifications when their child is on-boarded and get alerts when the student reaches the school and when they are picked up for the return trip. which ensure your child's safety and whereabouts at all times.",
-    cta: (
-      <Link href="/">
-        <Image src="/assets/playbtn.png" alt="logo" fluid width={170} />
-      </Link>
-    ),
+    // cta: (
+    //   <Link href="/">
+    //     <Image src="/assets/playbtn.png" alt="logo" fluid width={170} />
+    //   </Link>
+    // ),
   },
   {
     id: "sc6",
     head: "Every Ride is Insured",
     img: "insurance",
     text: "Travel with confidence knowing that every ride you take with Raido is fully insured. We prioritize your security by providing comprehensive insurance coverage for all our rides. This means that in the unlikely event of an accident or mishap, you are protected. Our commitment to your safety extends beyond just providing a secure ride; it includes ensuring financial protection and peace of mind. With Raido, you can relax and enjoy your journey, knowing that you are safeguarded at all times. Choose Raido for a worry-free travel experience where your safety and well-being are our utmost priority.",
-    cta: <SocialMedia variant={2} />,
+    // cta: <SocialMedia variant={2} />,
     noMargin: true,
   },
   {
@@ -281,21 +281,122 @@ const schoolServices = [
         </ul>
       </>
     ),
-    cta: (
-      <Link href="/">
-        <Image src="/assets/playbtn.png" alt="logo" fluid width={170} />
-      </Link>
+    // cta: (
+    //   <Link href="/">
+    //     <Image src="/assets/playbtn.png" alt="logo" fluid width={170} />
+    //   </Link>
+    // ),
+  },
+];
+
+const ambulanceServices = [
+  {
+    id: "amb1",
+    head: "How Raido Works",
+    img: "ra1",
+    text: (
+      <>
+        <p>We bridge the gap between emergencies and ambulances with:</p>
+        <ul>
+          <li>
+            <strong>Real-Time Emergency Notifications:</strong> Our system
+            identifies the closest ambulances, owned by hospitals or private
+            fleets, and sends instant alerts to ensure the fastest response.
+          </li>
+          <li>
+            <strong>Location-Based Dispatching:</strong> Ambulatory services
+            receive precise location details, enabling immediate action.
+          </li>
+          <li>
+            <strong>Integrated Communication:</strong> Simplified coordination
+            between emergency responders and ambulance operators ensures
+            seamless service.
+          </li>
+        </ul>
+      </>
     ),
+    // cta: <SocialMedia variant={2} />,
+    noMargin: true,
+  },
+  {
+    id: "amb2",
+    head: "Benefits of Partnering with Raido",
+    img: "ra2",
+    text: (
+      <>
+        <ul>
+          <li>
+            <strong>Faster Response Times:</strong> Ambulances owned by nearby
+            hospitals or private operators are notified instantly, reducing
+            delays.
+          </li>
+          <li>
+            <strong>Optimized Fleet Management:</strong> Use Raido's smart
+            technology to maximize the efficiency of your ambulance operations.
+          </li>
+          <li>
+            <strong>Community Impact:</strong> Play a vital role in
+            strengthening the local emergency response network.
+          </li>
+        </ul>
+      </>
+    ),
+    // cta: <SocialMedia variant={2} />,
+    noMargin: true,
+  },
+  {
+    id: "amb3",
+    head: "Why Choose Raido?",
+    img: "ra7",
+    text: (
+      <>
+        <p>
+          <strong>Smart Technology:</strong> Our platform leverages advanced
+          algorithms to notify the right ambulances at the right time.
+        </p>
+        <p>
+          <strong>Comprehensive Coverage:</strong> We create a robust network
+          that connects hospital-owned and private ambulances for better reach.
+        </p>
+        <p>
+          <strong>Life-Saving Coordination:</strong> Together, we ensure that no
+          emergency is left unanswered.
+        </p>
+      </>
+    ),
+    // cta: <SocialMedia variant={2} />,
+    noMargin: true,
+  },
+  {
+    id: "amb4",
+    head: "Join the Raido Network Today",
+    img: "ra6",
+    text: (
+      <>
+        <p>
+          If you're a hospital with an ambulance fleet or a private fleet owner,
+          partnering with Raido means contributing to a faster, more effective
+          emergency response system. Together, we can save more lives and make a
+          real difference in our communities.
+        </p>
+        <p>
+          <strong>Connect With Us:</strong> Reach out today to learn how Raido
+          can revolutionize your emergency ambulance operations.
+        </p>
+      </>
+    ),
+    // cta: <CustomButton>Contact Us Now</CustomButton>,
+    noMargin: true,
   },
 ];
 
 const TABS = [
   {
     id: "t1",
-    name: "Bikes and Autos",
+    name: "Autos and Cabs",
     services: cabServices,
     caption:
-      "Discover the ultimate in affordable and safe transportation with Raido in Chennai. Enjoy the cheapest bike taxi and auto booking services, complete with real-time GPS tracking and instant notifications. Our user-friendly app ensures a seamless booking experience, while comprehensive ride insurance provides peace of mind. Ride confidently, knowing your safety is our top priority with Raido.",
+      "Discover the ultimate in affordable and safe transportation with Raido in Chennai. Enjoy the most economical auto and cab booking services, complete with real-time GPS tracking and instant notifications. Our user-friendly app ensures a seamless booking experience, while comprehensive ride insurance provides peace of mind. Ride confidently, knowing your safety is our top priority with Raido.",
   },
   {
     id: "t2",
@@ -309,6 +410,13 @@ const TABS = [
     services: riderServices,
     caption:
       "Starting your journey with Raido is easy and straightforward. Instead of paying recurring commissions or dealing with complex fee structures, you simply subscribe to our application. Pay a fixed amount when you start your first ride and enjoy unlimited earning potential. Our subscription model is designed to provide maximum benefit with minimal hassle.",
+  },
+  {
+    id: "t4",
+    name: "Raido Ambulance",
+    services: ambulanceServices,
+    caption:
+      "Raido Ambulance Service – Empowering Emergency Response. We ensure faster response times, optimized fleet management, and a robust emergency network. Join us in revolutionizing emergency medical transportation.",
   },
 ];
 

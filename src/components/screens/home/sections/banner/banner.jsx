@@ -23,9 +23,9 @@ const BannerSection = () => {
                 </span>
                 <br />
                 <br />
-                Book Your <span className={styles.sp2}>Safest</span> &{" "}
-                <span className={styles.sp1}>Affordable</span> Bike, Auto &
-                School Rides Today
+                Book Your <span className={styles.sp2}>Safest</span> ,{" "}
+                <span className={styles.sp1}>Affordable</span> Auto & School
+                Rides Today
               </h1>
               <p data-aos="fade-up">
                 Introducing Raido&apos;s New &quot;Raido School&quot; for your
@@ -37,7 +37,7 @@ const BannerSection = () => {
           </div>
           <div className={styles.hero}>
             <Image
-              src="/assets/svg/hero2.svg"
+              src="/assets/svg/ra5.svg"
               alt="hero"
               fluid
               data-aos="fade-left"

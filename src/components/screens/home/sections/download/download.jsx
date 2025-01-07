@@ -23,7 +23,7 @@ const DownloadSection = () => {
                 Download the Raido app today and experience seamless
                 transportation solutions right at your fingertips. Available for
                 both iOS and Android devices, our user-friendly app allows you
-                to book bike taxi and auto rides with ease. Simply visit the App
+                to book taxi and auto rides with ease. Simply visit the App
                 Store or Google Play Store, search for &quot;Raido&quot; and
                 download the app for free. Once installed, sign up to create
                 your account and start booking rides instantly. With Raido, you
